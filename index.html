@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Islamic History Circle</title>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&family=Amiri:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* hub page: one dark column of guide cards, matching the guides */
+:root{--ink:#0E1014;--panel:#171B21;--line:#2C323B;--paper:#F2E8D3;--muted:#B9AE98;--gold:#E0B95E;--display:'Reem Kufi','Trebuchet MS',sans-serif;--body:'Amiri',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,monospace;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ink);color:var(--paper);font-family:var(--body);font-size:19px;line-height:1.55;-webkit-text-size-adjust:100%}
+.wrap{max-width:760px;margin:0 auto;padding:40px 18px 60px}
+.eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(34px,8vw,52px);line-height:1.1;margin:10px 0 12px}
+h1 .ar{display:block;font-size:.55em;color:var(--gold);font-weight:500}
+p{margin:0 0 14px;color:#D9CFBD}
+.list{display:flex;flex-direction:column;gap:14px;margin-top:26px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:8px;padding:16px 18px}
+a.card:hover,a.card:focus-visible{border-color:var(--gold);outline:none}
+.card .d{font-family:var(--mono);font-size:12.5px;color:var(--gold)}
+.card h2{font-family:var(--display);font-weight:500;font-size:24px;margin:4px 0 4px}
+.card p{margin:0;font-size:17px}
+.soon{display:block;background:var(--panel);border:1px dashed var(--line);border-radius:8px;padding:16px 18px;color:var(--muted)}
+.soon h2{font-family:var(--display);font-weight:500;font-size:22px;margin:4px 0 2px;color:var(--muted)}
+footer{margin-top:36px;font-size:15.5px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Study guides</div>
+  <h1><span class="ar" lang="ar">التاريخ الإسلامي</span>Islamic History Circle</h1>
+  <p>Interactive companions to our sessions, from the Rashidun Caliphate to the modern era. Each guide has a timeline, a map, the people involved and their family trees. Open them on your phone during a session or afterwards to revise.</p>
+  <div class="list">
+    <a class="card" href="abbasids/">
+      <div class="d">750 – 1258</div>
+      <h2>The Abbasids: Rise and Fall</h2>
+      <p>From the black banners of Khurasan to the Mongol siege of Baghdad: 37 caliphs, the map year by year, and 60 events.</p>
+    </a>
+    <div class="soon">
+      <div class="d" style="font-family:var(--mono);font-size:12.5px">661 – 750</div>
+      <h2>The Umayyads</h2>
+      <p style="margin:0;font-size:16.5px">To be added.</p>
+    </div>
+  </div>
+  <footer>‘Such days We alternate among people’ (Al Imran 3:140).</footer>
+</div>
+</body>
+</html>
